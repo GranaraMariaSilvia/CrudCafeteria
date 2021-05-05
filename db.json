@@ -1,0 +1,34 @@
+{
+  "cafeteria": [
+    {
+      "nombreProducto": "Licuado de frutilla",
+      "precioProducto": "180",
+      "categoria": "bebida-fria",
+      "id": 21
+    },
+    {
+      "nombreProducto": "tarta de espinaca",
+      "precioProducto": "257",
+      "categoria": "dulce",
+      "id": 23
+    },
+    {
+      "nombreProducto": "cafe",
+      "precioProducto": "120",
+      "categoria": "bebida-caliente",
+      "id": 24
+    },
+    {
+      "nombreProducto": "medialunas de manteca",
+      "precioProducto": "50",
+      "categoria": "salado",
+      "id": 25
+    },
+    {
+      "nombreProducto": "jugo de naranjas",
+      "precioProducto": "170",
+      "categoria": "bebida-fria",
+      "id": 26
+    }
+  ]
+}
