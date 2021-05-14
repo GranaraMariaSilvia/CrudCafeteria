@@ -26,7 +26,7 @@ function App() {
    const consultarAPI = async ()=>{
      //operacion Get obtengo los datos
      try{
-     const respuesta = await fetch('http://localhost:3000/cafeteria')
+     const respuesta = await fetch('http://localhost:4000/cafeteria')
      const resultado = await respuesta.json();
      console.log(resultado);
      //guardo en el state

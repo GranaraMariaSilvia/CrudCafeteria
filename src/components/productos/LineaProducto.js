@@ -24,7 +24,7 @@ const LineaProducto = (props) => {
 
         try {
           const resultado = await fetch(
-            `http://localhost:3000/cafeteria/${id}`,
+            `http://localhost:4000/cafeteria/${id}`,
             {
               method: "DELETE",
               headers: {
