@@ -26,7 +26,7 @@ function App() {
    const consultarAPI = async ()=>{
      //operacion Get obtengo los datos
      try{
-     const respuesta = await fetch('http://localhost:4000/cafeteria')
+     const respuesta = await fetch('http://localhost:4000/api/cafeteria')
      const resultado = await respuesta.json();
      console.log(resultado);
      //guardo en el state
@@ -55,11 +55,11 @@ function App() {
          path="/productos/editar/:id"
           render={(props) => {
           //quiero tomar el id de la url
-          const idProducto = parseInt(props.match.params.id);
+          const idProducto = props.match.params.id
           console.log('parametro de la url' +idProducto);
           //filtrar el arreglo y buscar el producto
           const productoEncontrado = productosAPI.find(
-            (producto) => producto.id === idProducto
+            (producto) => producto._id === idProducto
             ); 
 
            console.log(productoEncontrado);

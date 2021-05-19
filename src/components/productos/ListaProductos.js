@@ -9,7 +9,7 @@ const ListaProductos = (props) => {
       <ListGroup>
         {props.productosAPI.map((product) => (
           <LineaProducto
-            key={product.id}
+            key={product._id}
             product={product}
             setRecargarProductos={props.setRecargarProductos}
           ></LineaProducto>

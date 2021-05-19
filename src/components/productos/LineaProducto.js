@@ -24,7 +24,7 @@ const LineaProducto = (props) => {
 
         try {
           const resultado = await fetch(
-            `http://localhost:4000/cafeteria/${id}`,
+            `http://localhost:4000/api/cafeteria/${id}`,
             {
               method: "DELETE",
               headers: {
@@ -60,7 +60,7 @@ const LineaProducto = (props) => {
 
         <Link
           className=" btn btn-secondary float-right my-2"
-          to={`/productos/editar/${props.product.id}`}
+          to={`/productos/editar/${props.product._id}`}
         >
          
           <FontAwesomeIcon icon={faEdit} />
@@ -70,7 +70,7 @@ const LineaProducto = (props) => {
           variant="primary"
           className="float-right my-2 mr-2"
           
-          onClick={() => eliminarProducto(props.product.id)}
+          onClick={() => eliminarProducto(props.product._id)}
         >
           <FontAwesomeIcon icon={faTrash} />
         </Button>

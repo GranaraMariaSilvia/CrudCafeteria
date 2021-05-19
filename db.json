@@ -7,18 +7,6 @@
       "id": 21
     },
     {
-      "nombreProducto": "tarta de espinaca",
-      "precioProducto": "257",
-      "categoria": "dulce",
-      "id": 23
-    },
-    {
-      "nombreProducto": "cafe",
-      "precioProducto": "120",
-      "categoria": "bebida-caliente",
-      "id": 24
-    },
-    {
       "nombreProducto": "medialunas de manteca",
       "precioProducto": "50",
       "categoria": "salado",
@@ -29,6 +17,18 @@
       "precioProducto": "175",
       "categoria": "bebida-fria",
       "id": 26
+    },
+    {
+      "nombreProducto": "alfajor de chocolate",
+      "precioProducto": "80",
+      "categoria": "dulce",
+      "id": 27
+    },
+    {
+      "nombreProducto": "jugo de pomelo",
+      "precioProducto": "678",
+      "categoria": "dulce",
+      "id": 28
     }
   ]
 }
