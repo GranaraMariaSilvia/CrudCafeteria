@@ -45,7 +45,7 @@ const AgregarProducto = (props) => {
         body: JSON.stringify(datos),
       };
       const resultado = await fetch(
-        "http://localhost:4000/api/cafeteria",
+        "mongodb+srv://mariasilvia:buscandoaromeo@cluster0.ne88u.mongodb.net/test",
         cabecera
       );
       console.log(resultado);

@@ -24,7 +24,7 @@ const LineaProducto = (props) => {
 
         try {
           const resultado = await fetch(
-            `http://localhost:4000/api/cafeteria/${id}`,
+            `mongodb+srv://mariasilvia:buscandoaromeo@cluster0.ne88u.mongodb.net/test/${id}`,
             {
               method: "DELETE",
               headers: {
