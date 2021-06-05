@@ -24,7 +24,7 @@ const LineaProducto = (props) => {
 
         try {
           const resultado = await fetch(
-            `mongodb+srv://mariasilvia:buscandoaromeo@cluster0.ne88u.mongodb.net/test/${id}`,
+            `https://crudbackendcafeteria.herokuapp.com/api/cafeteria/${id}`,
             {
               method: "DELETE",
               headers: {

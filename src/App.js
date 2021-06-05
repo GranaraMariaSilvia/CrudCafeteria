@@ -26,7 +26,7 @@ function App() {
    const consultarAPI = async ()=>{
      //operacion Get obtengo los datos
      try{
-     const respuesta = await fetch('mongodb+srv://mariasilvia:buscandoaromeo@cluster0.ne88u.mongodb.net/test')
+     const respuesta = await fetch('https://crudbackendcafeteria.herokuapp.com/api/cafeteria');
      const resultado = await respuesta.json();
      console.log(resultado);
      //guardo en el state

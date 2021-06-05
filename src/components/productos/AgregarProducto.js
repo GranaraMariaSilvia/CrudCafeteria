@@ -45,7 +45,7 @@ const AgregarProducto = (props) => {
         body: JSON.stringify(datos),
       };
       const resultado = await fetch(
-        "mongodb+srv://mariasilvia:buscandoaromeo@cluster0.ne88u.mongodb.net/test",
+        "https://crudbackendcafeteria.herokuapp.com/api/cafeteria",
         cabecera
       );
       console.log(resultado);

@@ -49,7 +49,7 @@ const EditarProducto = (props) => {
     try {
       //enviar el request
       const consulta = await fetch(
-        `mongodb+srv://mariasilvia:buscandoaromeo@cluster0.ne88u.mongodb.net/test/${props.productoEncontrado._id}`,
+        `https://crudbackendcafeteria.herokuapp.com/api/cafeteria/${props.productoEncontrado._id}`,
         {
           method: "PUT",
           headers: {
